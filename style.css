@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar CSS */
+#nav-bar{
+    top: 0;
+    position: sticky;
+    z-index: 10;
+}
+
+.navbar{
+    background-color: #FFB1B1 !important;
+    padding: 5px 20px;
+}
+
+.navbar-nav li{
+    margin: 0 10px;
+}
+
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    align-items: left;
+}
+
+.navbar-brand img{
+    width: 150px;
+    padding-left: 20px;
+}
+.fa-bars{
+    font-size: 30px !important;
+    color: #fff;
+}
+
+.btn-outline-success{
+    background-color: #fff;
+    color: #FFB1B1;
+    border-radius: 60px;
+    padding: 10px 15px ;
+    border-color: #ff7070;
+}
+
+.form-control{
+    border-radius: 60px;
+}
+.form-control::placeholder{
+    margin-left: 20px;
+}
+.btn-outline-success:hover{
+    background-color: #ff7070 !important;
+    border-color: #ff7070;
+}
+/* Banner CSS */
+
+#banner{
+    background-color: #FFEAE3;
+    padding: 10%;
+    color: #121481;
+}
+
+.promo-title{
+    font-size: 90px;
+    font-weight: 600;
+
+
+}
+
+/* col css */
+
+#maincont{
+    padding: 80px 0;
+}
+
+.maincont{
+    color: #121481;
+}
+
+.copyright{
+    padding-bottom: 0% !important;
+}
